@@ -1,4 +1,4 @@
-# spec-authoring-skill · 规范构建与审阅
+# Spec Skills · 规范构建与审阅
 
 [中文](README.md) · [English](README.en.md)
 
@@ -30,20 +30,20 @@ Agent Skills for authoring guidelines and reviewing work against them. Chinese i
 安装规范构建技能，向 Codex 发送：
 
 ```text
-$skill-installer 安装 https://github.com/Ethan-decoy/spec-authoring-skill/tree/v0.2.3/spec-authoring
+$skill-installer 安装 https://github.com/Ethan-decoy/spec-skills/tree/v0.2.3/spec-authoring
 ```
 
 安装审阅技能：
 
 ```text
-$skill-installer 安装 https://github.com/Ethan-decoy/spec-authoring-skill/tree/v0.2.3/spec-review
+$skill-installer 安装 https://github.com/Ethan-decoy/spec-skills/tree/v0.2.3/spec-review
 ```
 
 这些入口固定到 `v0.2.3`。需要跟随最新源码时，将链接中的 `v0.2.3` 换成 `main`。更新已有安装时，请明确要求替换同名技能。
 
 ### 手动安装
 
-从 [GitHub Releases](https://github.com/Ethan-decoy/spec-authoring-skill/releases) 下载所需技能的压缩包，解压后将整个 `spec-authoring` 或 `spec-review` 文件夹放入支持 Agent Skills 的工具所使用的技能目录。
+从 [GitHub Releases](https://github.com/Ethan-decoy/spec-skills/releases) 下载所需技能的压缩包，解压后将整个 `spec-authoring` 或 `spec-review` 文件夹放入支持 Agent Skills 的工具所使用的技能目录。
 
 Codex 可使用用户目录 `~/.agents/skills/`，或目标项目中的 `.agents/skills/`。每个技能保留独立的同名目录，目录内应能找到 `SKILL.md`；若界面没有更新，可重启客户端。参见 [Codex 官方技能说明](https://learn.chatgpt.com/docs/build-skills)。其他工具的发现与安装方式以其文档为准。
 
@@ -108,7 +108,7 @@ spec-review/
 
 此前的触发试用启用了额外全局路由，不能用于证明技能自身的自动选择表现。本轮撤掉该路由后，以不点名技能的请求检查内容审阅、规范构建、规范自身的审阅及审阅后的修订，分别使用了对应技能。这些仍是小范围代理试用，不代表所有客户端或会话中的实际自动调用成功率。
 
-欢迎通过 [Issues](https://github.com/Ethan-decoy/spec-authoring-skill/issues) 反馈预期用途、实际表现及需要改进的判断。分享材料前请移除私人信息。
+欢迎通过 [Issues](https://github.com/Ethan-decoy/spec-skills/issues) 反馈预期用途、实际表现及需要改进的判断。分享材料前请移除私人信息。
 
 ## 维护
 

@@ -1,4 +1,4 @@
-# spec-authoring-skill · Guideline Authoring and Review
+# Spec Skills · Guideline Authoring and Review
 
 [中文](README.md) · [English](README.en.md)
 
@@ -28,20 +28,20 @@ The two skills can be installed independently as needed.
 To install Guideline Authoring, send this to Codex:
 
 ```text
-$skill-installer install https://github.com/Ethan-decoy/spec-authoring-skill/tree/v0.2.3/spec-authoring
+$skill-installer install https://github.com/Ethan-decoy/spec-skills/tree/v0.2.3/spec-authoring
 ```
 
 To install Review:
 
 ```text
-$skill-installer install https://github.com/Ethan-decoy/spec-authoring-skill/tree/v0.2.3/spec-review
+$skill-installer install https://github.com/Ethan-decoy/spec-skills/tree/v0.2.3/spec-review
 ```
 
 These URLs are pinned to `v0.2.3`. To follow the latest source, replace `v0.2.3` with `main`. When updating an existing installation, explicitly request replacement of the skills with the same names.
 
 ### Manual installation
 
-Download the archive for the skill you need from [GitHub Releases](https://github.com/Ethan-decoy/spec-authoring-skill/releases), extract it, and place the entire `spec-authoring` or `spec-review` folder in the skill directory used by your Agent Skills-compatible tool.
+Download the archive for the skill you need from [GitHub Releases](https://github.com/Ethan-decoy/spec-skills/releases), extract it, and place the entire `spec-authoring` or `spec-review` folder in the skill directory used by your Agent Skills-compatible tool.
 
 For Codex, use `~/.agents/skills/` for your user account, or `.agents/skills/` in the target project. Keep each skill in its own folder named after the skill, containing `SKILL.md`. If the interface does not update, restart the client. See the [official Codex skill documentation](https://learn.chatgpt.com/docs/build-skills). For other tools, consult their documentation for discovery and installation.
 
@@ -106,7 +106,7 @@ One static comparison of `spec-review` has been completed using a local controll
 
 Previous invocation trials had extra global routing enabled and cannot establish the skills' independent selection behavior. After removing that routing, this round used requests without skill names to check content review, guideline construction, review of a guideline document, and revision after review. Each used the corresponding skill. These remain limited agent trials, not evidence of invocation success rates across all clients or sessions.
 
-Use [Issues](https://github.com/Ethan-decoy/spec-authoring-skill/issues) to share your intended use, the behavior you observed, and judgments that need improvement. Remove private information before sharing material.
+Use [Issues](https://github.com/Ethan-decoy/spec-skills/issues) to share your intended use, the behavior you observed, and judgments that need improvement. Remove private information before sharing material.
 
 ## Maintenance
 
