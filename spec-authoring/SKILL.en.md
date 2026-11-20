@@ -1,6 +1,6 @@
 ---
 name: spec-authoring
-description: "Build guidelines, turning context, requirements, and practice into shared principles, conventions, and boundaries. Use when the user wants to establish, draft, organize, or revise guidelines; not when the request is only to review existing material."
+description: "Use when the user wants to establish, draft, organize, or revise guidelines. This includes writing down a practice discussed together so others can follow it in future work, or adding a new convention to existing guidelines. Draw on context, requirements, and practice to define shared principles, conventions, and boundaries. Skip requests limited to reviewing existing material."
 license: MIT
 ---
 
